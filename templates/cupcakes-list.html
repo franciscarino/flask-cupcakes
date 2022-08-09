@@ -16,27 +16,31 @@
     <div class="container">
       <h1>Cupcakes</h1>
       <ol></ol>
-      <form action="/api/cupcakes/">
+      <form action="/api/cupcakes" method="POST">
         <div>
           <label for="">Flavor</label>
-          <input class="form-control" type="text" />
+          <input id="flavor" class="form-control" type="text" />
         </div>
         <div>
           <label for="">Size</label>
-          <input class="form-control" type="text" />
+          <input id="size" class="form-control" type="text" />
         </div>
         <div>
           <label for="">Rating</label>
-          <input class="form-control" type="text" />
+          <input id="rating" class="form-control" type="text" />
         </div>
         <div>
           <label for="">Image URL</label>
-          <input class="form-control" type="text" />
+          <input id="image" class="form-control" type="text" />
         </div>
         <button class="btn btn-primary">Submit</button>
       </form>
     </div>
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="static/script.js"></script>
   </body>
